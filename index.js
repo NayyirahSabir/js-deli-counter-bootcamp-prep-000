@@ -1,11 +1,16 @@
-var katzDeliLine = []
+// var katzDeliLine = []
 var i = 0
 
-function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name)
-  return `Welcome, ${name}. You are number ` + katzDeliLine.length + ` in line.`
-}
+// function takeANumber(katzDeliLine, name){
+//   katzDeliLine.push(name)
+//   return `Welcome, ${name}. You are number ` + katzDeliLine.length + ` in line.`
+// }
 
+function TakeANumber(katzDeliLine){
+  let nmbrs = 0
+    nmbrs + 1
+    return `Welcome, you are ticket number ${nmbrs + 1} in line.`
+}
 
 function nowServing(katzDeliLine){
     if (katzDeliLine.length){
